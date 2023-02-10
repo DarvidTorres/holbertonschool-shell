@@ -1,2 +1,2 @@
 #!/bin/bash
-pwd
+cmod u+x pwd
