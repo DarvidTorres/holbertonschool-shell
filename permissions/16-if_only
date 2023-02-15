@@ -1,2 +1,2 @@
 #!/bin/bash
-if [stat -c '%U' = guillaume] then chow vincent hello
+chow --from=guillaume vincent hello
