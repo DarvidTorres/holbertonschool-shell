@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -iname "*.ipynb" -execdir sh -c 'printf "%s\n" "${0%.*}"' {} ';'
+find . -type f -name '*.gif' -printf '%f\n' | cut -d'.gif'
